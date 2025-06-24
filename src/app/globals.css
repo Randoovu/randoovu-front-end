@@ -1,0 +1,14 @@
+@config "../../tailwind.config.js";
+@import "tailwindcss";
+
+:root {
+  --background: #222831;
+  --primary: #093FB4;
+  --foreground: #fff;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
