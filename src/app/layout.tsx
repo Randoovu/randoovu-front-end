@@ -43,8 +43,8 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: "/favicon.ico",
-    apple: "icon-48x48.png",
-    shortcut: "icon-48x48.png",
+    apple: "/icon-48x48.png",
+    shortcut: "/icon-48x48.png",
     other: [
       {
         rel: "mask-icon",
@@ -74,7 +74,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col items-center text-white`}
       >
         {children}
       </body>
