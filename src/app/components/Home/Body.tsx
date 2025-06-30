@@ -19,7 +19,6 @@ export default function Body() {
 
                 <Button type="inline" className="w-32 mt-4">Get Started</Button>
             </div>
-            <div className=""></div>
         </div>
     )
 }

@@ -4,6 +4,7 @@ import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
+  weight: ["400", "500", "700", "800", "900"],
   subsets: ["latin"],
 });
 
@@ -74,7 +75,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col items-center text-white`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col items-center text-foreground`}
       >
         {children}
       </body>

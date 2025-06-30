@@ -1,6 +1,8 @@
+import AboutUs from "./components/Home/AboutUs";
 import Body from "./components/Home/Body";
-import Header from "./components/Home/Header";
-import IdCorrector from "./components/Home/IdCorrector";
+import ContactUs from "./components/Home/ContactUs";
+import Header from "./components/General/Header";
+import Footer from "./components/General/Footer";
 
 export default function Home() {
   return (
@@ -9,7 +11,12 @@ export default function Home() {
 
       <Body />
 
-      <IdCorrector />
+      <div className="flex max-md:flex-col max-md:px-4 gap-4 py-8 justify-between container">
+        <AboutUs />
+        <ContactUs />
+      </div>
+
+      <Footer />
     </>
   );
 }
