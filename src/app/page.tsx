@@ -11,7 +11,7 @@ export default function Home() {
 
       <Body />
 
-      <div className="flex max-md:flex-col max-md:px-4 gap-4 py-8 justify-between container">
+      <div className="flex max-md:flex-col max-md:px-4 gap-8 md:gap-4 py-8 justify-between container">
         <AboutUs />
         <ContactUs />
       </div>

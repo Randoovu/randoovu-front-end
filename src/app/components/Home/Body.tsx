@@ -1,3 +1,4 @@
+import Link from "next/link"
 import Button from "../Button"
 
 export default function Body() {
@@ -17,7 +18,15 @@ export default function Body() {
                     <p className="text-primary md:text-2xl text-xl font-bold">Open-source.</p>
                 </div>
 
-                <Button type="inline" className="w-32 mt-4">Get Started</Button>
+                <div className="flex gap-2 mt-4">
+                    <Link href="/sign-up">
+                        <Button type="outline" className="w-32">Get Started</Button>
+                    </Link>
+
+                    <Link href="/sign-in">
+                        <Button className="w-32">Sign In</Button>
+                    </Link>
+                </div>
             </div>
         </div>
     )
