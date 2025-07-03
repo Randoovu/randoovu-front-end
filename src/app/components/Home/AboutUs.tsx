@@ -1,6 +1,6 @@
 export default function AboutUs() {
     return (
-        <div className="w-full items-start max-md:border-b-[1.25px] max-md:pb-8 md:border-r-[1.25px] border-r-foreground md:pr-4 flex flex-col gap-4" id="about-us">
+        <div className="w-full items-start max-md:border-b-[1.25px] max-md:pb-8 md:border-r-[1.25px] border-gray-300 md:pr-4 flex flex-col gap-4" id="about-us">
             <h2 className="text-xl md:text-2xl font-medium">About Us</h2>
 
             <p className="text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mi erat, vestibulum sit amet porta id, cursus at purus. Vestibulum dolor enim, congue sit amet lectus et, accumsan posuere quam. Morbi molestie, urna eu ultricies maximus, lorem metus faucibus turpis, eu porttitor est nibh nec ligula. In ut velit quam. Sed consequat luctus cursus. Etiam sed erat sapien. Duis laoreet dui ut augue laoreet molestie. Sed maximus sit amet justo sit amet tempus. Sed scelerisque eros ac molestie tristique. Ut sit amet sapien ac nunc consequat sollicitudin.

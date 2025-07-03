@@ -2,7 +2,6 @@ import AboutUs from "./components/Home/AboutUs";
 import Body from "./components/Home/Body";
 import ContactUs from "./components/Home/ContactUs";
 import Header from "./components/General/Header";
-import Footer from "./components/General/Footer";
 
 export default function Home() {
   return (
@@ -15,8 +14,6 @@ export default function Home() {
         <AboutUs />
         <ContactUs />
       </div>
-
-      <Footer />
     </>
   );
 }
