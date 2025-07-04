@@ -29,10 +29,10 @@ export default function SignInForm() {
             router.push("/dashboard");
         } else {
             toast.error("Failed to sign in. Please check your credentials.");
+            setButtonDisabled(false);
         }
-        setButtonDisabled(false);
     }
-    
+
     return (
         <div className="w-full flex flex-col gap-4 max-md:pb-8 md:pr-4 max-md:border-b md:border-r border-gray-300">
             <h1 className="text-2xl font-bold">Sign In</h1>

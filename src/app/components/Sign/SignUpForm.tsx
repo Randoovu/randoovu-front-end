@@ -90,6 +90,7 @@ export default function SignUpForm() {
             }
             else {
                 toast.error("Please enter a valid 6-digit code.");
+                setButtonDisabled(false);
             }
         }
     }
@@ -114,15 +115,17 @@ export default function SignUpForm() {
                         }) => setPassword(e.target.value)} maxLength={100} minLength={8} type="password" />
                     </div>
 
-                    <Button onClick={() => handleSignUp()} className="w-full">Sign Up</Button>
+                    <Button disabled={buttonDisabled || !isValidEmail(email) || !isValidPassword(password)} onClick={() => !buttonDisabled && handleSignUp()}
+                        className="w-full">
+                        Sign Up
+                    </Button>
                 </>
             ) : (
                 <>
                     <div className="flex flex-col gap-2">
-
                         <h1 className="text-2xl font-bold">Verify Email</h1>
 
-                        <p className="text-lg font-medium">We have sent a code to your email.</p>
+                        <p className="text-sm font-medium text-gray-700">We have sent a code to your email.</p>
                     </div>
 
 

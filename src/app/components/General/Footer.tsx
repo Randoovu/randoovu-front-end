@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <footer className="border-t max-md:px-4 flex justify-center py-4 border-gray-300 w-full mt-8">
             <div className="container flex justify-between items-center">
-                <h1 className="text-2xl font-extrabold text-primary">Randoovu</h1>
+                <h1 className="text-2xl font-extrabold text-primary cursor-pointer">Randoovu</h1>
 
 
                 <Link className="md:text-xl text-lg text-foreground cursor-pointer rounded-lg font-medium duration-150 hover:bg-primary/10 p-1"

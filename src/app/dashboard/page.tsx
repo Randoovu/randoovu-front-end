@@ -14,7 +14,7 @@ export default function DashboardPage() {
         description: "A cozy diner serving classic American breakfast and lunch.",
         todaysAppointmentCount: 50,
         currentAppointmentCount: 5,
-        maxAppointmentSize: 21
+        maxAppointmentCapacity: 21
     },
     {
         title: "Final Masquerade Restaurant",
@@ -22,7 +22,7 @@ export default function DashboardPage() {
         description: "Standing at the end of the final masquerade.",
         todaysAppointmentCount: 200,
         currentAppointmentCount: 25,
-        maxAppointmentSize: 52
+        maxAppointmentCapacity: 52
     }]
     return (
         <div className="container max-md:px-4 h-screen py-8 flex flex-col gap-8">
@@ -46,10 +46,10 @@ export default function DashboardPage() {
                             <h2 className="text-xl font-semibold">{corp.title}</h2>
                             <p className="text-gray-600 text-base h-12">{corp.description}</p>
                             <div className="mt-2">
-                                <p className="text-sm text-gray-500">Fullness Percent: {Math.round(corp.currentAppointmentCount * 100 / corp.maxAppointmentSize)}%</p>
+                                <p className="text-sm text-gray-500">Fullness Percent: {Math.round(corp.currentAppointmentCount * 100 / corp.maxAppointmentCapacity)}%</p>
                                 <p className="text-sm text-gray-500">Today's Appointments: {corp.todaysAppointmentCount}</p>
                                 <p className="text-sm text-gray-500">Current Appointments: {corp.currentAppointmentCount}</p>
-                                <p className="text-sm text-gray-500">Max Appointment Size: {corp.maxAppointmentSize}</p>
+                                <p className="text-sm text-gray-500">Max Appointment Capacity: {corp.maxAppointmentCapacity}</p>
                             </div>
 
                             <div className="mt-4">
@@ -64,7 +64,7 @@ export default function DashboardPage() {
 
             <div className="flex flex-col gap-4">
                 <h1 className="text-xl font-bold">Create A New Appointment Base</h1>
-                <Button className="w-24">Create</Button>
+                <Link href="/dashboard/create"><Button className="w-24">Create</Button></Link>
             </div>
         </div>
     );
