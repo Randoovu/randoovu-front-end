@@ -7,7 +7,7 @@ export default function Footer() {
                 <h1 className="text-2xl font-extrabold text-primary">Randoovu</h1>
 
 
-                <Link className="md:text-xl text-lg text-foreground cursor-pointer rounded-lg font-medium duration-150 hover:bg-primary/5 p-1"
+                <Link className="md:text-xl text-lg text-foreground cursor-pointer rounded-lg font-medium duration-150 hover:bg-primary/10 p-1"
                     target="_blank"
                     href="https://github.com/Yefee8">
                     Made by Yefee
