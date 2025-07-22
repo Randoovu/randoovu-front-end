@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Perfect! Here's the English version of your `README.md` tailored for the **front-end open-source** release of your **Next.js + Tailwind CSS** project: **Randoovu**.
 
-## Getting Started
+---
 
-First, run the development server:
+## 📄 `README.md`
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```markdown
+# Randoovu 🗓️
+
+**Randoovu** is a modern and elegant open-source appointment scheduling interface, built with **Next.js** and **Tailwind CSS**.
+
+This repository contains the **frontend** side of the project. The backend (Node.js + Express) will be developed and released separately.
+
+---
+
+## ✨ Features
+
+- 🔐 Sign in / Sign up pages
+- 🗓️ Appointment creation and management modal
+- 🏢 Corporate dashboard & public profiles
+- 🌐 Multi-language support (i18n ready)
+- 📱 Responsive design (mobile-first)
+- ⚡ Fast and accessible UI
+- 🎨 Custom UI components built with Tailwind CSS
+
+---
+
+## 📁 Folder Structure (Simplified)
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+src/
+│
+├── app/
+│   ├── api/                 # API endpoints (Next.js route handlers)
+│   ├── components/          # Reusable UI components
+│   │   ├── Corp/
+│   │   ├── Create/
+│   │   ├── Dashboard/
+│   │   ├── General/
+│   │   └── Sign/
+│   ├── corp/\[id]/           # Dynamic route for corporate public profiles
+│   ├── dashboard/           # User dashboard (internal view)
+│   ├── sign-in/             # Login page
+│   ├── sign-up/             # Register page
+│   ├── sign-out/            # Sign out logic
+│   ├── icons/               # SVG icons
+│   ├── page.tsx             # Homepage
+│   ├── layout.tsx           # Layout wrapper
+│   └── globals.css          # Global styles
+│
+├── public/                  # Static files
+├── tailwind.config.js       # Tailwind CSS config
+├── next.config.js           # Next.js config
+├── tsconfig.json            # TypeScript config
+└── README.md
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+````
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Technologies
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- TypeScript
+- CSS Modules
+- Responsive Web Design
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📦 Getting Started
 
-## Deploy on Vercel
+```bash
+# Install dependencies
+yarn install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Run the development server
+yarn dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Open http://localhost:3000 in your browser
+````
+
+---
+
+## 📌 Planned Features
+
+* ⚙️ Admin panel for managing appointments
+* 📆 Google Calendar & Outlook integration
+* 🔔 Notification system
+* 🕒 Time zone support
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+Feel free to check the [issues](https://github.com/Randoovu/randoovu-front-end/issues) page or open a PR.
+
+---
+
+## 📄 License
+
+This project is **MIT Licensed**.
+Feel free to use, modify and share it.
+
+---
+
+## ✨ Author
+
+Made by [Yavuz](https://github.com/Yefee8)
+
+````
