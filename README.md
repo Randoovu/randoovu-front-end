@@ -1,6 +1,3 @@
-## 📄 `README.md`
-
-```markdown
 # Randoovu 🗓️
 
 **Randoovu** is a modern and elegant open-source appointment scheduling interface, built with **Next.js** and **Tailwind CSS**.
@@ -105,5 +102,3 @@ Feel free to use, modify and share it.
 ## ✨ Author
 
 Made by [Yavuz](https://github.com/Yefee8)
-
-````
