@@ -26,7 +26,7 @@ export default function DashboardPage() {
     }]
     return (
         <div className="container max-md:px-4 h-screen py-8 flex flex-col gap-8">
-            <div className="flex w-full items-center justify-between">
+            <div className="flex w-full items-center justify-between gap-4">
                 <div className="flex flex-col">
                     <h1 className="text-2xl text-primary font-bold">Randoovu Dashboard</h1>
 
