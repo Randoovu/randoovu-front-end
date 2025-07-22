@@ -1,7 +1,3 @@
-Perfect! Here's the English version of your `README.md` tailored for the **front-end open-source** release of your **Next.js + Tailwind CSS** project: **Randoovu**.
-
----
-
 ## 📄 `README.md`
 
 ```markdown
