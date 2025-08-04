@@ -3,7 +3,7 @@ import SignUpForm from "../components/Sign/SignUpForm";
 
 export default function SignUpPage() {
     return (
-        <div className="w-full h-screen flex justify-center items-center">
+        <div className="w-full min-h-screen flex justify-center items-center">
             <div className="container flex max-md:flex-col gap-8 md:gap-4 shadow-lg p-8">
                 <SignUpForm />
 

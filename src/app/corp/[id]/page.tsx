@@ -50,7 +50,7 @@ export default async function CorpPage(params: any) {
     .join(", ");
 
   return (
-    <div className="container max-md:px-4 h-screen py-8 flex flex-col gap-8">
+    <div className="container max-md:px-4 min-h-screen py-8 flex flex-col gap-8">
       <div className="flex w-full items-center justify-between gap-4">
         <div className="flex flex-col">
           <h1 className="text-2xl flex gap-2 items-center text-primary font-bold">

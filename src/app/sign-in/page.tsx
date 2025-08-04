@@ -3,7 +3,7 @@ import SignInForm from "../components/Sign/SignInForm";
 
 export default function SignInPage() {
     return (
-        <div className="w-full h-screen flex justify-center items-center">
+        <div className="w-full min-h-screen flex justify-center items-center">
             <div className="container flex max-md:flex-col gap-8 md:gap-4 shadow-lg p-8">
                 <SignInForm />
 
