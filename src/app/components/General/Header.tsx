@@ -18,7 +18,7 @@ export default function Header() {
     return (
         <header className="w-full md:h-16 py-4 h-32 flex justify-center max-md:px-4 bg-foreground/5">
             <div className="container flex justify-between gap-4 flex-wrap max-sm:flex-col items-center">
-                <h1 className="text-2xl font-extrabold text-primary">Randoovu</h1>
+                <h1 className="text-2xl font-bold text-primary">Randoovu</h1>
 
                 <div className="flex gap-4 items-center ">
                     {links.map((linkItem, i) => {
