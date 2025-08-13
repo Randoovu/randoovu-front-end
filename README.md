@@ -6,7 +6,7 @@ This repository contains the **frontend** side of the project. The backend (Node
 
 ---
 
-## ✨ Features
+## ✨ Content of This Repo
 
 - 🔐 Sign in / Sign up pages
 - 🗓️ Appointment creation and management modal
