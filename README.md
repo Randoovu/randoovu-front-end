@@ -58,7 +58,8 @@ src/
 - [Tailwind CSS](https://tailwindcss.com/)
 - TypeScript
 - CSS Modules
-- Responsive Web Design
+- Websockets
+- Node & Express.js (on the back-end side)
 
 ---
 
@@ -76,19 +77,12 @@ yarn dev
 
 ---
 
-## 📌 Planned Features
-
+## Features
 * ⚙️ Admin panel for managing appointments
-* 📆 Google Calendar & Outlook integration
-* 🔔 Notification system
-* 🕒 Time zone support
-
----
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-Feel free to check the [issues](https://github.com/Randoovu/randoovu-front-end/issues) page or open a PR.
+* 🗓️ Create and manage appointment bases with custom weekly schedules
+* 📈 View real-time appointment statistics and fullness percentages
+* 🔄 Real-time updates via server-sent events (WebSocket-like experience)
+* 💻 Fully integrated with Firebase
 
 ---
 
